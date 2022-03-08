@@ -1,0 +1,84 @@
+body {
+    background-color: lightblue;
+  }
+  
+  h1{
+    color: rgb(110, 62, 223);
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: center;
+  }
+  #medio {
+    background-color: rgb(238, 142, 247);
+    position: absolute;
+    left: 68%;
+    top: 100px;
+    object-position: 50% 50%;
+    margin: auto;
+    width: 30%; height: 35%;
+    padding: 1px;
+    border-radius: 1px;
+  }
+
+  #title {
+    background-color: rgb(244, 175, 247);
+    text-align: center;
+    width: 30%;
+    margin: auto;
+    padding: 1px;
+    border-radius: 1px;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    color: #000000;
+  }
+  h2  {
+    font-family: verdana;
+     }
+  table, th, td {
+    padding: 18px;
+    border: 1px solid rgb(137, 16, 161);
+  }
+  .info {
+    text-align: right;
+    align-content: center;
+    text-align: center;
+    font-family: verdana;
+    font-style: italic;
+    font-size: 15px;
+    color: #000000;
+  }
+  #botoncentral{
+   text-align: center;
+  }
+
+  .container {
+    padding-left: 40px;
+     }
+
+   .boton {
+    text-align: center;
+    align-self: right 10px;
+    background-color: #dbcee0;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  #title2 {
+    background-color: rgb(103, 184, 204);
+    text-align: center;
+    width: 20%;
+    margin: auto;
+    padding: 1px;
+    border-radius: 1px;
+    font-style: italic;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    color: #000000;
+  }

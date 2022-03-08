@@ -1,0 +1,89 @@
+<!DOCTYPE html> 
+<html lang="es">    
+   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levantar Pedido</title>
+   </head>  
+    <body background="fondoc.png" width="150" heigth="150"> 
+        <marquee vspace="10" bgcolor="A9BCF5"><i><font color="000000" size="6">¡Diseñe su Dulce Tentación!</font></i></marquee>
+        <img src="logocake.png" alt="logo DT" title="Logo" style="float:right"  width="200" heigth="200"/>
+        <br><br>    
+
+        <link rel="stylesheet" href="./DTPasteleros.css">
+        <form action="pedidosT.html">
+            <div class="container" >
+                
+            <h4>Tamaño del pastel</h4><select name="tamaño" id="tamaño">
+               <option value="cuatro"> Hasta 4 personas---------------$150</option> 
+                <option value="seis" >Hasta 6 personas---------------$200</option>
+                <option value="ocho"> Hasta 8 personas---------------$250</option>
+                <option value="diez"> Hasta 10 personas--------------$300</option>
+                <option value="mas"> Mas de 10 personas--------------cotizar</option>
+            </select>
+
+             <h4>Sabor del pan</h4><select name="sabor" id="sabor">                   
+                <option value="vainilla">Pan de Vainilla</option>
+                <option value="chocolate">Pan de Chocolate</option>
+                <option value="fresa">Pan de Fresa</option>
+                <option value="napolitano">Pan Napolitano</option>
+                <option value="redv">Red Velvet  ( +$10 p/persona)</option>
+                <option value="almond">Pan de Almendra  ( +$15 p/persona)</option>
+                <option value="cafe">Pan de cafe  ( +$10 p/persona)</option>
+                <option value="nata">Pan de nata   ( +$10 p/persona)</option><br>
+            </select>
+
+            <h4>Coberturas</h4><select name="cobertura" id="cobertura">
+                <option value="merengue">Merengue tradicional</option>
+                <option value="mediano">Chantilly</option>
+                <option value="fondant">Fondant</option>|
+                <option value="ganache">Ganache</option>
+             </select>   
+
+             <dl><h4>Rellenos</h4>
+                <h5>(Se pueden combinar hasta 2 rellenos distintos)</h5>
+                 <dt><input type="checkbox" name="dentro1" value="pastelera">Crema pastelera</dt>
+                 <dt><input type="checkbox" name="dentro1" value="pasteleraa">Crema pastelera con almendra------------  + $5 p/p</dt>
+                 <dt><input type="checkbox" name="dentro1" value="fresa">Mermelada de fresa</dt>
+                 <dt><input type="checkbox" name="dentro1" value="fresan">Mermelada de fresa c/nuez------------  + $5 p/p</dt>
+                 <dt><input type="checkbox" name="dentro1" value="ganache">Ganache</dt> 
+                 <dt><input type="checkbox" name="dentro1" value="cajeta">Cajeta</dt> 
+                 <dt><input type="checkbox" name="dentro1" value="cajetan">Cajeta con nuez------------  + $5 p/p</dt> 
+                 <dt><input type="checkbox" name="dentro1" value="mismo">Mismo relleno de cobertura</dt>
+             </dl>
+
+             <h4>Decoración</h4>
+                <input type="radio" name="decoracion" value="fruta">Fruta natural <br>
+                <input type="radio" name="decoracion" value="Impresion">Impresion Comestible <br>
+                <input type="radio" name="decoracion" value="fondant">Decoraciones azucar/fondant <br>
+
+
+                <h4>Adicionales / personalizacion </h4>
+                <h4>Descripcion </h4>
+                <textarea name="Descripcion" rows="5" cols="80" placeholder="Breve descripcion de sus personalizaciones"></textarea>
+                                
+            <br><br>
+            <h3>Datos del cliente</h3>
+            <label for="nombre">Nombre de quien recibe</label>
+            <input type="text" style="width: 705px; height:20px" name="nombre" id="nombre" placeholder="Nombre, apellido paterno, apellido materno"><br><br>
+            <label for="direccion">Direccion</label>
+            <input type="text" style="width: 800px; height:20px" name="direccion" id="direccion" placeholder="Direccion"><br><br>
+            <label for="telefono">Telefono</label>
+            <input type="text" style="width: 800px; height:20px" name="telefono" id="telefono" placeholder="Telefono"><br><br>
+            <label for="email">Email</label>
+            <input type="text" name="email" id="email" placeholder="Email"><br><br>
+
+            <br>
+            <input type="submit" value="Enviar">    
+            <input type="reset" value="Borrar"> 
+            <input type="button" value="Regresar" onclick="location.href='PastDulceT.html'">
+            </div>
+        </form>
+
+    </body> 
+<br><br><br>
+    <footer>  
+        <p>Diseñado y maquetado por: S.L.V. <br><br>
+        Para LaunchX </p><br>    
+    <H4>Copyright ©2022 LaunchX S.A. Derechos Reservados </H4>
+</html>
